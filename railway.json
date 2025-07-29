@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "heroku"
+  },
+  "deploy": {
+    "startCommand": "gunicorn cruptoai_project.wsgi:application"
+  }
+}
